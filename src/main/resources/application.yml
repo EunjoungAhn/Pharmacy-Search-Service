@@ -13,6 +13,10 @@ spring:
     activate:
       on-profile: common
 
+kakao:
+  rest:
+    api:
+      key: ${KAKAO_REST_API_KEY} # 실무에서는 공통으로 사용하지 않는다.
 # ...
 
 ---
