@@ -32,9 +32,6 @@ dependencies {
     annotationProcessor 'org.projectlombok:lombok'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 
-    implementation 'org.springframework.retry:spring-retry'
-    implementation 'org.springframework.boot:spring-boot-starter-data-redis'
-
     // test 검증을 위한 spock 추가
     testImplementation('org.spockframework:spock-core:2.1-groovy-3.0')
     // Spring 과 같이 사용하기 위해
