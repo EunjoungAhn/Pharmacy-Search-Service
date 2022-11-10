@@ -38,7 +38,6 @@ class PharmacyRepositoryTest extends AbstractIntegrationContainerBaseTest {
         result.getLongitude() == longitude
     }
 
-    /*
     def "PharmacyRepository saveAll"() {
         given:
         String address = "서울 특별시 성북구 종암동"
@@ -61,5 +60,4 @@ class PharmacyRepositoryTest extends AbstractIntegrationContainerBaseTest {
         result.size() == 1
     }
 
-    */
 }
